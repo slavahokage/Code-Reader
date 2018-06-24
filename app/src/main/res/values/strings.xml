@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Code Reader</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <integer name="com_vk_sdk_AppId">6503373</integer>
+</resources>

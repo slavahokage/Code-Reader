@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:background="@drawable/grad_bg">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Коллекция штрих кодов"
+        android:background="@drawable/grad_bg"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"
+        android:textSize="24sp">
+    </TextView>
+
+    <ListView
+        android:id="@+id/lvMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp">
+    </ListView>
+
+    <Button
+        android:id="@+id/clean"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="5"
+        android:background="@drawable/bt_bg"
+        android:text="Очистить все"
+        android:textColor="@color/white" />
+
+</LinearLayout>
